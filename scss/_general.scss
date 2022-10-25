@@ -1,0 +1,32 @@
+/* General codes */
+
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+*::before,
+*::after {
+   box-sizing: inherit;
+}
+
+html {
+   height: 100%;
+   box-sizing: border-box;
+}
+
+body {
+   overflow-x: hidden;
+   // font-family: "", "Arial", sans-serif;
+}
+
+img {
+   display: block;
+   height: 100%;
+}
+
+/* Sticky-footer */
+.site-main {
+   flex-grow: 1;
+}
